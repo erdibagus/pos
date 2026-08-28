@@ -1,0 +1,1 @@
+function e(){return{formatNumber:e=>{if(!e&&e!==0)return``;let t=String(e).replace(/\D/g,``);if(!t)return``;let n=parseInt(t);return isNaN(n)?``:n.toLocaleString(`id-ID`)},parseNumber:e=>{if(!e)return 0;let t=String(e).replace(/\./g,``).replace(/\D/g,``),n=parseInt(t);return isNaN(n)?0:n}}}export{e as t};
